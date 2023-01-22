@@ -44,6 +44,14 @@
     margin-left: 32px;
 }
 
+.head-top a:hover {
+    color: black;
+}
+
+.logo:hover path {
+    fill: black;
+}
+
 .designing {
     background-color: #3098F3;
 }
