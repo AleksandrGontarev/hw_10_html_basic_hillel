@@ -18,10 +18,10 @@
 }
 
 .container {
-    max-width: 1152px;
+    max-width: 1150px;
     min-width: 800px;
     margin: 0 auto;
-    padding: 0 16px;
+    padding: 0 15px;
 }
 
 .head {
@@ -145,8 +145,7 @@
 
 .study {
     display: flex;
-    padding-bottom: 80px;
-    justify-content: center;
+    padding-bottom: 80px;    
 }
 
 .study-button {
@@ -162,7 +161,7 @@
     display: flex;
     background-color: #F2EAE2;
     width: 50%;
-    padding: 40px;
+    padding: 39px 34px 40px 40px;
     flex-direction: column;
     align-items: flex-start;
 }
@@ -176,6 +175,7 @@
 }
 
 .text-study-top {
+    font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.16px;
@@ -195,7 +195,7 @@
     line-height: 23px;
     color: #05051E;
     display: inline-flex;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .text-study-button svg {
