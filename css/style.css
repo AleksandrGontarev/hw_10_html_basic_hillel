@@ -155,6 +155,7 @@
 
 .picture-study {
     width: 50%;
+    display: flex;
 }
 
 .text-study {
@@ -202,6 +203,10 @@
     margin-right: 8px;
 }
 
+.text-study-button:hover path {
+    fill: black;
+}
+
 .study:nth-child(even) {
     flex-direction: row-reverse;
 }
@@ -212,10 +217,6 @@
 
 .study:last-child {
     flex-direction: row;
-}
-
-.text-study-button:hover path {
-    fill: black;
 }
 
 .button-studies-item {
