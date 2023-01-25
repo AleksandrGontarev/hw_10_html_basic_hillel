@@ -243,30 +243,40 @@
 .design-together {
     background-color: #FFCC00;
     padding-top: 120px;
-    padding-bottom: 110px;
+    padding-bottom: 120px;
 }
 
 .design-together-item {
     display: flex;
+   
 }
 
 .design-together-pic {
     width: 58.333%;
+    padding-left: 15px;
+    padding-top: 5px;
+    align-self: center;
 }
+
 
 .design-together-text {
     width: 41.666%;
+    display: flex;
+}
+
+.together-text-item {
     padding-top: 96px;
-    padding-bottom: 85px;
+    width: 420px;
+
 }
 
 .design-together-head {
     font-weight: 400;
     font-size: 51px;
-    line-height: 67px;
+    line-height: 70px;
     letter-spacing: 1.12px;
     color: #05051E;
-    padding-bottom: 45px;
+    padding-bottom: 40px;
 }
 
 .design-together-head-text {
@@ -274,7 +284,7 @@
     font-size: 24px;
     line-height: 34px;
     color: #05051E;
-    padding-bottom: 35px;
+    padding-bottom: 37px;
 }
 
 .design-together-head span {
@@ -316,7 +326,7 @@
 
 .we-have-card-item {
     width: 33.333%;
-    margin: 0 16px;
+    margin: 0 15px;
     background-color: #3098F3;
     padding: 40px;
     display: flex;
@@ -354,7 +364,7 @@
 }
 
 .footer {
-    padding-top: 126px;
+    padding-top: 128px;
     padding-bottom: 115px;
 }
 
@@ -378,7 +388,8 @@
     border-radius: 100px;
     text-decoration: none;
     background-color: #FFCC00;
-    margin-bottom: 180px;
+    margin-bottom: 184px;
+    border: none;
 }
 
 .button-1:hover {
@@ -398,7 +409,7 @@
 
 .footer-address-text {
     font-size: 17px;
-    line-height: 34px;
+    line-height: 33px;
     color: #FFFFFF;
     margin-bottom: auto;
 }
@@ -411,13 +422,15 @@
 
 .footer-menu {
     width: 34%;
+    padding-right: 20px;
 }
 
 .footer-menu-item ul {
     list-style: none;
-    padding-left: 0;
     column-count: 2;
-    padding-bottom: 70px;
+    padding-left: 0;
+    padding-top: 5px;
+    padding-bottom: 65px;
 }
 
 .footer-menu-item a {
