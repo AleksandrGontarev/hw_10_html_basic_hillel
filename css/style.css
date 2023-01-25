@@ -390,6 +390,7 @@
     background-color: #FFCC00;
     margin-bottom: 184px;
     border: none;
+    cursor: pointer;
 }
 
 .button-1:hover {
@@ -456,6 +457,7 @@
     background-color: transparent;
     border: none;
     outline: none;
+    cursor: pointer;
 }
 
 .input {
