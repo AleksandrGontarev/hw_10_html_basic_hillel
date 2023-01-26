@@ -318,15 +318,20 @@
     padding-bottom: 55px;
 }
 
-.we-have-card {
+.we-have-card-list {
     display: flex;
     margin: 0 -15px;
     padding-bottom: 25px;
 }
 
-.we-have-card-item {
+.we-have-card {
     width: 33.333%;
-    margin: 0 15px;
+    padding: 0 15px;
+    display: flex;
+}
+
+.we-have-card-item {
+   
     background-color: #3098F3;
     padding: 40px;
     display: flex;
@@ -343,7 +348,7 @@
     color: #FFFFFF;
 }
 
-.we-have-card-item a {
+.some-link {
     align-self: flex-end;
 }
 
